@@ -20,9 +20,6 @@ function App() {
         
       </Routes>
 
-      <Intro />
-      <Laurels />
-      <Footer />
     </div>
   );
 }
