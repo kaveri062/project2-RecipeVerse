@@ -1,0 +1,51 @@
+.restriction-component {
+    width: 150px;
+    padding: 10px;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: 2px solid rgba(148, 144, 144, 0.525);
+    word-spacing: 20px;
+
+}
+
+.restriction-header {
+    cursor: pointer;
+}
+
+.arrow {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.open {
+    transform: rotate(45deg);
+}
+
+.restriction-label {
+    font-weight: 400;
+}
+
+.restriction-content {
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.add-allergy {
+    cursor: pointer;
+}
+
+.allergy-list {
+    margin-top: 10px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.allergy-list li {
+    margin-bottom: 5px;
+}
