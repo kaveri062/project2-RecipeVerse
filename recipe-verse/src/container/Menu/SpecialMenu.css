@@ -1,10 +1,11 @@
 .app__recipe-page{
     display: flex;
     width: 100%;
-    justify-content: center;
     text-align: center;
     padding-top: 2rem;
 }
+
+
 
 .recipes_container{
     display: flex;

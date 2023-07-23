@@ -17,7 +17,7 @@ function Gallery({ title, imgUrl, body }) {
 
       <div className='class-content'>
         <div className='class-title'>
-          <h1>{title}</h1>
+          <h3>{title}</h3>
         </div>
 
         <div className='class-body'>

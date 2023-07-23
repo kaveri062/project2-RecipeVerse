@@ -11,9 +11,6 @@ import MenuItem from '@material-ui/core/MenuItem';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 
-
-
-import Alert from '@material-ui/lab/Alert';
 import Modal from '@material-ui/core/Modal';
 
 
@@ -68,51 +65,19 @@ const FindUs = () => {
   ];
 
   const mealType = [
-    {
-      value: "Breakfast",
-      label: "Breakfast"
-    },
-    {
-      value: "Lunch",
-      label: "Lunch"
-    },
-    {
-      value: "Dinner",
-      label: "Dinner"
-    },
-    {
-      value: "Dessert",
-      label: "Dessert"
-    },
-    {
-      value: "Snack",
-      label: "Snack"
-    }
+    { value: 'Breakfast', label: 'Breakfast' },
+    { value: 'Lunch', label: 'Lunch' },
+    { value: 'Dinner', label: 'Dinner' },
+    { value: 'Dessert', label: 'Dessert' },
+    { value: 'Snack', label: 'Snack' },
   ];
 
   const cuisineType = [
-    {
-      value: "French",
-      label: "French"
-    },
-    {
-      value: "Italian",
-      label: "Italian"
-    },
-    {
-      value: "Asian",
-      label: "Asian"
-    },
-    {
-      value: "American",
-      label: "American"
-    },
-    {
-      value: "Other",
-      label: "Other"
-    }
+    { value: 'French', label: 'French' },
+    { value: 'Italian', label: 'Italian' },
+    { value: 'Asian', label: 'Asian' },
+    { value: 'Other', label: 'Other' },
   ];
-
   const handleNext = () => {
     if (activeStep === 0) {
       if (!username.trim()) {
