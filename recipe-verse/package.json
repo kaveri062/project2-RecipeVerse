@@ -1,8 +1,8 @@
 {
-  "homepage": "https://uottawak062.github.io/project2-RecipeVerse",
+  "homepage": "https://kaveri062.github.io/project2-RecipeVerse/",
   "name": "recipe-verse",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
