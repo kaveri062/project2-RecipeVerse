@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Chef, FindUs, Footer, Header, Intro, Laurels, SpecialMenu } from './container';
+import { Chef, FindUs, Header, SpecialMenu } from './container';
 import { Navbar } from './components';
 import './App.css';
 import { Routes, Route, Router } from 'react-router-dom';

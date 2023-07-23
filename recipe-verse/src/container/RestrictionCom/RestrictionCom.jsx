@@ -28,7 +28,6 @@ const RestrictionCom = ({ label }) => {
   return (
     <div className="restriction-component">
       <div className="restriction-header" onClick={handleToggle}>
-        <span className="arrow">+</span>
         <span className="restriction-label">{label}</span>
       </div>
       {isOpen && (

@@ -5,9 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/project2-RecipeVerse">
       <App />
-
-      
   </BrowserRouter>
 , document.getElementById('root'));

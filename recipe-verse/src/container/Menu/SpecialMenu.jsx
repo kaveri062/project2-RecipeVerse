@@ -54,13 +54,13 @@ const galleryData = [
 ];
 
 const SpecialMenu = () => (
+  
   <div className='app__total-recipe-page'>
-
-    <h1>Our Recipes</h1>
+    <h1 className="special-menu-title">Our Recipes</h1>
+    <h2>Our Recipes</h2>
 
 
     <div className='app__recipe-page'>
-
       <SearchParam />
 
       <div className='recipes_container'>
