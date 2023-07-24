@@ -77,3 +77,15 @@
 
 
   }
+
+  .change-language-btn {
+    width: 100px;
+    background: transparent;
+    border-radius: 15px;
+    border: 1px solid black;
+    position: fixed;
+    top: 10px;
+    right: 60px;
+    z-index: 99999; /* Adjust this value based on your layout */
+  }
+  
