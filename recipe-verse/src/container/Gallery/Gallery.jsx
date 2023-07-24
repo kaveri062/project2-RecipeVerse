@@ -7,12 +7,12 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 import './Gallery.css';
 
 
-function Gallery({ title, imgUrl, body }) {
+function Gallery({ title, imgUrl, body, altText }) {
   return (
     <div className='card-container'>
 
       <div className='image-container'>
-        <img src={imgUrl} alt="Recipe" />
+        <img src={imgUrl} alt={altText} />
       </div>
 
       <div className='class-content'>
@@ -32,7 +32,6 @@ function Gallery({ title, imgUrl, body }) {
         </div>
 
       </div>
-
 
 
     </div>

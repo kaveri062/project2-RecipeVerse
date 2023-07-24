@@ -118,6 +118,7 @@ const SpecialMenu = () => {
               title={item.title}
               imgUrl={item.imgUrl}
               body={item.body}
+              altText={item.altText}
             />
           ))}
         </div>
