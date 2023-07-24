@@ -16,9 +16,9 @@ const Header = () => {
   return (
     <div>
       <div className='app__header'>
-        <p className="p__opensans" id='header-slogan'>
+        <h1 className="p__opensans" id='header-slogan'>
           {translate("header.slogan")}
-        </p>
+        </h1>
         <p className="p__opensans" id='header-description'>
           {translate("header.description1")}
         </p>
@@ -47,7 +47,11 @@ const Header = () => {
       </div>
       
       {/* Language Change Button */}
-      <button onClick={handleLanguageChange} className='change-language-btn'>
+      <button
+        onClick={handleLanguageChange}
+        className='change-language-btn'
+        aria-label="Change Language"
+      >
         {language === 'en' ? 'Switch to French' : 'Switch to English'}
       </button>
     </div>
