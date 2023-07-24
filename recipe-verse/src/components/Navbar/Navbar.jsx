@@ -4,7 +4,7 @@ import images from '../../constants/images';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
-import { useLanguage, languageOptions } from '../../LanguageContext'; // Replace with the correct path
+import { useLanguage, languageOptions } from '../../LanguageContext'; 
 
 
 import './Navbar.css';
